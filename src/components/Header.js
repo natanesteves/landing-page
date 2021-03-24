@@ -69,7 +69,7 @@ export default function Header() {
         <div className={classes.container}>
           <h1 className={classes.title}>
             Welcome to <br />
-            My<span className={classes.colorText}>Island.</span>
+            Your<span className={classes.colorText}>LandingPage.</span>
           </h1>
           <Scroll to="place-to-visit" smooth={true}>
             <IconButton>
