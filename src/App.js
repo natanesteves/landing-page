@@ -4,10 +4,11 @@ import { CssBaseline } from '@material-ui/core';
 import Header from './components/Header';
 import PlaceToVisit from './components/PlaceToVisit';
 
+
 const useStyles = makeStyles((theme) => ({
   root: {
     minHeight: '100vh',
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/bg.jpg'})`,
+    backgroundColor: '#023373',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
   },
@@ -19,9 +20,7 @@ export default function App() {
       <CssBaseline />
       <Header />
       <PlaceToVisit />
-      <PlaceToVisit />
-      <PlaceToVisit />
-      <PlaceToVisit />
+      
     </div>
   );
 }
